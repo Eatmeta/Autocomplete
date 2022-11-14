@@ -1,0 +1,15 @@
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\dic\adjectives.txt
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\dic\nouns.txt
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\dic\verbs.txt
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\Autocomplete.exe.config
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\Autocomplete.exe
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\Autocomplete.pdb
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\bin\Debug\nunit.framework.dll
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\autocomplete.csproj.AssemblyReference.cache
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\Autocomplete.AutocompleteForm.resources
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\Autocomplete.Properties.Resources.resources
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\autocomplete.csproj.GenerateResource.cache
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\autocomplete.csproj.CoreCompileInputs.cache
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\autocomplete.csproj.CopyComplete
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\Autocomplete.exe
+C:\Users\69\RiderProjects\Ulearn Part 1\autocomplete\obj\Debug\Autocomplete.pdb
