@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Autocomplete
 {
@@ -17,15 +16,21 @@ namespace Autocomplete
         /// </remarks>
         public static int GetRightBorderIndex(IReadOnlyList<string> phrases, string prefix, int left, int right)
         {
-            // IReadOnlyList похож на List, но у него нет методов модификации списка.
-            // Этот код решает задачу, но слишком неэффективно. Замените его на бинарный поиск!
-            for (int i = phrases.Count-1; i >= 0; i--)
+            var middle = 0;
+            if (prefix.Length == 0 || phrases.Count == 0) return phrases.Count;
+            while (right - left != 1)
             {
-                if (string.Compare(prefix, phrases[i], StringComparison.OrdinalIgnoreCase) >= 0 
-                    || phrases[i].StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
-                    return i + 1;
+                middle = left + (right - left) / 2;
+                if (string.Compare(prefix, phrases[middle], StringComparison.OrdinalIgnoreCase) >= 0
+                    || phrases[middle].StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
+                    left = middle;
+                else right = middle;
             }
-            return 0;
+            if (string.Compare(prefix, phrases[middle], StringComparison.OrdinalIgnoreCase) < 0
+                && !phrases[middle].StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
+                return middle;
+
+            return middle + 1;
         }
     }
 }
